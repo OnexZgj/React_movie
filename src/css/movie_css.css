@@ -1,0 +1,12 @@
+.box{
+    border: 1px solid #cccccc;
+    text-align: center;
+    width: 180px;
+    margin: 4px;
+    box-shadow: 0 0 6px #cccccc;
+    padding: 6px;
+}
+.item_img{
+    width: 100px;
+    height: 130px;
+}

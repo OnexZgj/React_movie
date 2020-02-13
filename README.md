@@ -66,3 +66,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+#### 路由刷新问题 调用window.location.hash.split('/')[1]
+
+#### 网络请求的时候，数据函数回调接口中，也要使用箭头函数，不然会出现this未定义的问题
