@@ -38,7 +38,7 @@ export default class App extends React.Component {
                     <Route path='/about' component={AboutComponent}></Route>
                     <Route path='/movie' component={MovieComponent}></Route>
                 </Content>
-                <Footer style={{ textAlign: 'center',height:'48px' }}> OnexZgj ©2018 Created by onexzgj</Footer>
+                <Footer style={{ textAlign: 'center'}}> OnexZgj ©2018 Created by onexzgj</Footer>
             </Layout>,
         </HashRouter>
     }

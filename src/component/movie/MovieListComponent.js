@@ -12,7 +12,7 @@ export class MovieListComponent extends React.Component {
             nowPage: parseInt(props.match.params.page) || 1,
             isLoading: true,
             total: 0,
-            pageSize: 10,
+            pageSize: 12,
             movieType: props.match.params.type
         }
     }
