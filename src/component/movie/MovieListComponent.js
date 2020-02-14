@@ -64,7 +64,7 @@ export class MovieListComponent extends React.Component {
             return <div>
                 <div style={{display:'flex',flexWrap:'wrap',text_align:'center',margin:'0 auto'}}>
                     {this.state.movies.map(item => {
-                        return <MovieItem key = {item.id} {...item}></MovieItem>
+                        return <MovieItem key = {item.id} {...item} history={this.props.history}></MovieItem>
                     })}
                 </div>
                 <div><Pagination onChange={this.pageChanged} defaultCurrent={this.state.nowPage} total={this.state.total } pageSize={this.state.pageSize} /></div>
